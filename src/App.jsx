@@ -9,6 +9,9 @@ import Tasks from "./pages/Tasks";
 import TasksMenu from "./pages/TasksMenu";
 import TaskDetails from "./pages/TaskDetails";
 import About from "./pages/About";
+import Profile from "./pages/Profile";
+import Settings from "./pages/Settings";
+import Reports from "./pages/Reports";
 import NotFound from "./pages/NotFound";
 
 export default function App() {
@@ -46,6 +49,22 @@ export default function App() {
           path="/about" 
           element={<About />}
           />
+
+          <Route 
+          path="/profile" 
+          element={<Profile />}
+          />
+         
+          <Route 
+          path="/settings" 
+          element={<Settings />}
+          />
+         
+          <Route 
+          path="/reports" 
+          element={<Reports />}
+          />
+         
           <Route 
           path="*" 
           element={<NotFound />}

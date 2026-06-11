@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import Tasks from "./pages/Tasks";
 import TasksMenu from "./pages/TasksMenu";
+import CreateTask from "./pages/CreateTask";
 import TaskDetails from "./pages/TaskDetails";
 import About from "./pages/About";
 import Profile from "./pages/Profile";
@@ -43,6 +44,11 @@ export default function App() {
           <Route  
           path="/tasks/:id" 
           element={<TaskDetails />}
+          />
+
+          <Route 
+          path="/create-task" 
+          element={<CreateTask />}
           />
 
           <Route 

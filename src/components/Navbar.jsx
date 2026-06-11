@@ -15,6 +15,8 @@ export default function Navbar() {
             <br/>
             <Link to="/about">About</Link>
             <br/>
+            <Link to="/notifications">Notification</Link>
+            <br/>
             <Link to="/profile">Profile</Link>
             <br/>
             <Link to="/settings">Settings</Link>

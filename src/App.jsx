@@ -13,6 +13,7 @@ import About from "./pages/About";
 import Profile from "./pages/Profile";
 import Settings from "./pages/Settings";
 import Reports from "./pages/Reports";
+import Notifications from "./pages/Notifications";
 import NotFound from "./pages/NotFound";
 
 export default function App() {
@@ -46,6 +47,11 @@ export default function App() {
           element={<TaskDetails />}
           />
 
+          <Route 
+          path="/Notifications" 
+          element={<Notifications />}
+          />
+          
           <Route 
           path="/create-task" 
           element={<CreateTask />}
